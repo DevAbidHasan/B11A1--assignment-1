@@ -2,3 +2,64 @@
 * {
     font-family: "Fira Sans", serif;
 }
+/* shared styles */
+.margin-shared{
+    margin-left: 128px;
+    margin-right: 128px;
+}
+/* hero section */
+.hero-top-header{
+    display: flex;
+    justify-content: space-around;
+    gap: 700px;
+}
+.hero-top-header h3{
+    font-weight: bold;
+    font-size: 26px;
+    /* margin-left: 128px; */
+    margin-top: 24px;
+}
+.hero-top-btn{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 36px;
+    padding: 12px 24px;
+    color: ;
+    border: 1px solid #006A50;
+    border-radius: 5px;
+    color: #006A50;
+    font-weight: 600px;
+    font-size: 14px;
+}
+.hero-content{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: #C6E4D6;
+    margin: 0 100px;
+    padding: 64px 48px;
+    border-radius: 20px;
+}
+.hero-content h5{
+    /* font-size: 50px; */
+    font-weight: 600px;
+    font-size: 18px;
+    color: #0E0E0E;
+    opacity: 0.5;
+    margin-bottom: 12px;
+}
+.hero-content h2{
+    font-size: 45px;
+    font-weight: 700px;
+
+}
+.explore-btn{
+    font-weight: 700px;
+    font-size: 14px;
+    color: white;
+    background-color: #006A50;
+    border: none;
+    border-radius: 6px;
+    padding: 14px 28px;
+    margin-top: 15px;
+}
