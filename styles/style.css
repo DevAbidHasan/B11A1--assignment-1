@@ -3,6 +3,12 @@
     font-family: "Fira Sans", serif;
     /* background-color: #F1F1F3; */
 }
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
 .header-bg{
     /* color: #F1F1F3; */
 }
@@ -105,7 +111,7 @@
     
 }
 .card-item{
-    border: 1px solid #cdd7db;
+    border: 1px solid #e7edf0;
     padding: 20px 20px;
     border-radius: 12px;
     background-color: white;
@@ -237,4 +243,27 @@
 }
 .vision-btn3:hover{
     background-color:#313734;
+}
+/* Quote part styles */
+.yunus{
+    margin: 26px 100px 65px;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    border: 1px solid rgb(214, 208, 208);
+    border-radius: 13px;
+    padding: 38px 18px;
+    background-position: inherit;
+    back
+/*  */
+}
+.advisor-description{
+    font-size: 13px;
+    opacity:0.8;
+}
+
+.advisor-name{
+    font-size: 20px;
+    font-weight: 600px;
 }
