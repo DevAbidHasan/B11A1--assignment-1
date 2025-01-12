@@ -398,3 +398,6 @@ select:hover{
 .read-more:hover{
     background-color: black;
 }
+.recent-news-main2{
+    flex-direction: row-reverse;
+}
