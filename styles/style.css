@@ -436,7 +436,7 @@ select:hover{
 .donate-card-item:hover{
     background-color: #006A50;
     color: white;
-    
+
 }
 .donate-now-textbox{
     padding: 18px 36px;
@@ -482,4 +482,57 @@ select:hover{
 }
 .donate-btn:hover{
     background-color: black;
+}
+/* subscribe letter part styles */
+.subscribe-now{
+    display: flex;
+    gap: none;
+    justify-content: center;
+    /* gap: 1px; */
+}
+.subscribe{
+    margin: 64px 100px;
+    /* border: 1px solid rgb(173, 168, 168); */
+    padding: 65px 80px;
+    border-radius: 20px;
+    background-color: #C6E4D6;
+}
+
+.subscribe-textbox{
+    height: 40px;
+    width: 650px;
+    padding: 10px 36px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+}
+.subscribe-btn{
+    padding: 14px 30px;
+    color: white;
+    background-color: #006A50;
+    border: none;
+    border-radius: 0 8px  8px 0;
+    font-size: 16px;
+    font-weight: 600px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+.subscribe-btn:hover{
+    color: white;
+    background-color: black;
+}
+/* footer styles here */
+.footer-img{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.copyright{
+    text-align: center;
+}
+.footer-color{
+    background-color: #f2f7f5;
 }
