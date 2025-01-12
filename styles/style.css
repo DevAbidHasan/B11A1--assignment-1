@@ -101,6 +101,8 @@
     gap: 20px;
     margin: 26px 100px 65px;
     /* background-color: #F1F1F3; */
+    /* position: fixed; */
+    
 }
 .card-item{
     border: 1px solid #cdd7db;
@@ -112,6 +114,7 @@
     transition: 0.3s;
     position: relative;
     overflow: hidden;
+
 }
 .card-title{
     font-weight: 700px;
