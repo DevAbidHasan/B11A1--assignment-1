@@ -530,8 +530,22 @@ select:hover{
     margin-top: 30px;
     margin-bottom: 50px;
 }
+.footer-img-icon{
+    /* background-color: #f8ecec; */
+    transition: 0.3s;
+    padding: 10px;
+}
+.footer-img-icon:hover{
+    background-color: #f1e8e8;
+    transition: 0.3s;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
 .copyright{
     text-align: center;
+    padding-bottom: 5px;
+    border: none;
 }
 .footer-color{
     background-color: #f2f7f5;
