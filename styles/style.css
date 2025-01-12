@@ -331,4 +331,70 @@ select:hover{
     border-radius: 10px;
     /* color: #ccf0de; */
 }
-
+/* recent section styles */
+.recent-news{
+    margin: 65px 100px 30px 100px;
+}
+.recent-news-main{
+    margin: 28px 0 22px 0;
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    border: 1px solid rgb(214, 208, 208);
+    border-radius: 21px;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+.recent-news-main:hover{
+    background-color: #e8ebed;
+}
+.satelite-image{
+    width: 339px;
+    height: 270px;
+    margin-top: 5px;
+    /* margin-bottom: 5px; */
+    border-radius: 21px;
+}
+.recent-news-title-description{
+    font-size: 14px;
+    opacity: 0.7;
+}
+.recent-news-heading{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.recent-blog-heading{
+    font-size: 28px;
+    font-weight: bold;
+    opacity: 0.8;
+    margin-top: 5px;
+    /* margin-bottom: ; */
+}
+.recent-news-info{
+    font-size: 14px;
+    /* font-weight: ; */
+    opacity: 0.7;
+}
+.recent-news-time{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 0;
+}
+.read-more{
+    padding: 10px 22px;
+    font-size: 16px;
+    font-weight: 600px;
+    border-radius: 6px;
+    color: white;
+    background-color: #006A50;
+    border: none;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.read-more:hover{
+    background-color: black;
+}
